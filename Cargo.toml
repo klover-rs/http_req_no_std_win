@@ -6,7 +6,7 @@ version = "0.1.0"
 edition = "2021"
 description = "A library which allows you to send simple http requests using the windows api crate, no_std supported!"
 license = "MIT"
-keywords = ["no_std", "windows", "winapi", "http", "https", "request"]
+keywords = ["no_std", "windows", "winapi", "http", "request"]
 
 [dependencies]
 winapi = { version = "0.3", features = ["wininet", "errhandlingapi"] }

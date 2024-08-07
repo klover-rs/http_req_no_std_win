@@ -4,6 +4,8 @@ the goal of this project is to eleminate large binary sizes by using no_std, the
 
 example usage
 ```rs
+use http_req_no_std_win::request::{ClientBuilder, Request, RequestType};
+
 fn main() {
     let body = r#"{"name":"morpheus","job":"jobless"}"#.as_bytes().to_vec();
     
